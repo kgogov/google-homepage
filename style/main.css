@@ -211,3 +211,21 @@ form {
   gap: 1rem;
   padding: 1rem 0;
 }
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 12px;
+  }
+
+  .footer-one {
+    padding: 0.5rem 2rem;
+  }
+
+  .footer-two-ul {
+    padding: 0.5rem 0;
+  }
+
+  .footer-two-ul:last-of-type {
+    padding: 0 0 0.5rem 0;
+  }
+}
