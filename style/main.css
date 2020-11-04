@@ -108,6 +108,16 @@ form {
   border-radius: 69px;
 }
 
+@media only screen and (max-width: 680px) {
+  .search-box {
+    width: 100%;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+}
+
 .search-box:hover {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.212);
 }
@@ -183,6 +193,12 @@ form {
 .footer-two {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 680px) {
+  .footer-two {
+    flex-direction: column;
+  }
 }
 
 .footer-one {
